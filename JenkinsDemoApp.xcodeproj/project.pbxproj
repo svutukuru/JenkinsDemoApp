@@ -74,6 +74,7 @@
 				A54A83731EC0B29C00E4FDE8 /* Sources */,
 				A54A83741EC0B29C00E4FDE8 /* Frameworks */,
 				A54A83751EC0B29C00E4FDE8 /* Resources */,
+				A58BDF481EC2DDFE00534568 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,6 +131,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A58BDF481EC2DDFE00534568 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf libswiftRemoteMirror";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A54A83731EC0B29C00E4FDE8 /* Sources */ = {
