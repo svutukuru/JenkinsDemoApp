@@ -49,6 +49,12 @@
 			<dict>
 				<key>NSExceptionMinimumTLSVersion</key>
 				<string>TLSv1.1</string>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
 				<key>NSExceptionRequiresForwardSecrecy</key>
 				<false/>
 			</dict>
