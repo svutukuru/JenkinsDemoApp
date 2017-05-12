@@ -45,7 +45,7 @@
 		<false/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>yourdomain.com</key>
+			<key>itunesconnect.apple.com</key>
 			<dict>
 				<key>NSExceptionMinimumTLSVersion</key>
 				<string>TLSv1.1</string>
