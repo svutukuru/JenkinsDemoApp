@@ -97,6 +97,7 @@
 				TargetAttributes = {
 					A54A83761EC0B29C00E4FDE8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UY9J243TRW;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -281,13 +282,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UY9J243TRW;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = JenkinsDemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opteamix.JenkinsDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ddbd4d4-3382-40e6-a609-1169d8050b56";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDemoApp_Development;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
