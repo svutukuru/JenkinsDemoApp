@@ -47,14 +47,10 @@
 		<dict>
 			<key>yourdomain.com</key>
 			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSAllowsArbitraryLoads</key>
-				<true/>
-				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<key>NSExceptionMinimumTLSVersion</key>
 				<string>TLSv1.1</string>
-				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
