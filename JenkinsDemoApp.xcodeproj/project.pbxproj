@@ -305,8 +305,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opteamix.JenkinsDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "27f653b5-1a66-470c-8c14-046e4e01e759";
-				PROVISIONING_PROFILE_SPECIFIER = JenkinsDemoApp_Distribution;
+				PROVISIONING_PROFILE = "37d7aef9-84ab-49b5-bf82-98eb618072ef";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDemoApp_AppStore;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
