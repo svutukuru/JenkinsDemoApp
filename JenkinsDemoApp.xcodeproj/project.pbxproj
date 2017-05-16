@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF6F20F39DB4899D30CA326 /* Pods_JenkinsDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CE75530B88C6859CB17010 /* Pods_JenkinsDemoApp.framework */; };
 		A54A837B1EC0B29C00E4FDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A837A1EC0B29C00E4FDE8 /* AppDelegate.swift */; };
 		A54A837D1EC0B29C00E4FDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A837C1EC0B29C00E4FDE8 /* ViewController.swift */; };
 		A54A83801EC0B29C00E4FDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54A837E1EC0B29C00E4FDE8 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59CE75530B88C6859CB17010 /* Pods_JenkinsDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E7918D4A524E38B42DAFB /* Pods-JenkinsDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsDemoApp/Pods-JenkinsDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6CC5D500CA106FBF352473 /* Pods-JenkinsDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsDemoApp/Pods-JenkinsDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		A54A83771EC0B29C00E4FDE8 /* JenkinsDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54A837A1EC0B29C00E4FDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54A837C1EC0B29C00E4FDE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF6F20F39DB4899D30CA326 /* Pods_JenkinsDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BF2E6BDA2BC6CF06767F4DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660E7918D4A524E38B42DAFB /* Pods-JenkinsDemoApp.debug.xcconfig */,
+				6C6CC5D500CA106FBF352473 /* Pods-JenkinsDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AA13CA9884C428DC1A14686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59CE75530B88C6859CB17010 /* Pods_JenkinsDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A54A836E1EC0B29C00E4FDE8 = {
 			isa = PBXGroup;
 			children = (
 				A54A83791EC0B29C00E4FDE8 /* JenkinsDemoApp */,
 				A54A83781EC0B29C00E4FDE8 /* Products */,
+				1BF2E6BDA2BC6CF06767F4DE /* Pods */,
+				9AA13CA9884C428DC1A14686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,10 +95,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54A83891EC0B29C00E4FDE8 /* Build configuration list for PBXNativeTarget "JenkinsDemoApp" */;
 			buildPhases = (
+				1AC5D079D944957E93FD8092 /* [CP] Check Pods Manifest.lock */,
 				A54A83731EC0B29C00E4FDE8 /* Sources */,
 				A54A83741EC0B29C00E4FDE8 /* Frameworks */,
 				A54A83751EC0B29C00E4FDE8 /* Resources */,
 				A58BDF481EC2DDFE00534568 /* ShellScript */,
+				8135F30B4F1A27C150A80A3C /* [CP] Embed Pods Frameworks */,
+				BB6C220188089598F1DC4144 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1AC5D079D944957E93FD8092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8135F30B4F1A27C150A80A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsDemoApp/Pods-JenkinsDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A58BDF481EC2DDFE00534568 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +203,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "rm -rf libswiftRemoteMirror";
+		};
+		BB6C220188089598F1DC4144 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsDemoApp/Pods-JenkinsDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -277,6 +349,7 @@
 		};
 		A54A838A1EC0B29C00E4FDE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660E7918D4A524E38B42DAFB /* Pods-JenkinsDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,6 +370,7 @@
 		};
 		A54A838B1EC0B29C00E4FDE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6CC5D500CA106FBF352473 /* Pods-JenkinsDemoApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
