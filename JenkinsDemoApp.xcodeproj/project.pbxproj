@@ -99,7 +99,6 @@
 				A54A83731EC0B29C00E4FDE8 /* Sources */,
 				A54A83741EC0B29C00E4FDE8 /* Frameworks */,
 				A54A83751EC0B29C00E4FDE8 /* Resources */,
-				A58BDF481EC2DDFE00534568 /* ShellScript */,
 				8135F30B4F1A27C150A80A3C /* [CP] Embed Pods Frameworks */,
 				BB6C220188089598F1DC4144 /* [CP] Copy Pods Resources */,
 			);
@@ -190,19 +189,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsDemoApp/Pods-JenkinsDemoApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		A58BDF481EC2DDFE00534568 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -rf libswiftRemoteMirror.dylib";
 		};
 		BB6C220188089598F1DC4144 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
