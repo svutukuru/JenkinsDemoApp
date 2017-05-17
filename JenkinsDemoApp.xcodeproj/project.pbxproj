@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF6F20F39DB4899D30CA326 /* Pods_JenkinsDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CE75530B88C6859CB17010 /* Pods_JenkinsDemoApp.framework */; };
 		A54A837B1EC0B29C00E4FDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A837A1EC0B29C00E4FDE8 /* AppDelegate.swift */; };
 		A54A837D1EC0B29C00E4FDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A837C1EC0B29C00E4FDE8 /* ViewController.swift */; };
 		A54A83801EC0B29C00E4FDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54A837E1EC0B29C00E4FDE8 /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF6F20F39DB4899D30CA326 /* Pods_JenkinsDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
