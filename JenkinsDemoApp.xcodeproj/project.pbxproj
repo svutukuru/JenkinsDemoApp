@@ -12,6 +12,7 @@
 		A54A83801EC0B29C00E4FDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54A837E1EC0B29C00E4FDE8 /* Main.storyboard */; };
 		A54A83821EC0B29C00E4FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54A83811EC0B29C00E4FDE8 /* Assets.xcassets */; };
 		A54A83851EC0B29C00E4FDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54A83831EC0B29C00E4FDE8 /* LaunchScreen.storyboard */; };
+		A5927F221ECC2C4A00ECF42C /* Export.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5927F211ECC2C4A00ECF42C /* Export.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A54A83811EC0B29C00E4FDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54A83841EC0B29C00E4FDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54A83861EC0B29C00E4FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5927F211ECC2C4A00ECF42C /* Export.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Export.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				A54A83811EC0B29C00E4FDE8 /* Assets.xcassets */,
 				A54A83831EC0B29C00E4FDE8 /* LaunchScreen.storyboard */,
 				A54A83861EC0B29C00E4FDE8 /* Info.plist */,
+				A5927F211ECC2C4A00ECF42C /* Export.plist */,
 			);
 			path = JenkinsDemoApp;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5927F221ECC2C4A00ECF42C /* Export.plist in Resources */,
 				A54A83851EC0B29C00E4FDE8 /* LaunchScreen.storyboard in Resources */,
 				A54A83821EC0B29C00E4FDE8 /* Assets.xcassets in Resources */,
 				A54A83801EC0B29C00E4FDE8 /* Main.storyboard in Resources */,
